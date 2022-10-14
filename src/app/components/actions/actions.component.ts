@@ -31,7 +31,6 @@ export class ActionsComponent implements OnInit {
         .sort((a: any, b: any) => b.salary - a.salary)
         .slice(0, Math.floor(Math.random() * 20));
       this.rows = jobs;
-      console.log(jobs);
       this.initializePieChart(jobs);
       this.initializeLineChart(
         jobs.map(({ job }) => job),

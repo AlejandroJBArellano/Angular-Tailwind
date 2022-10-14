@@ -25,7 +25,6 @@ export class BalancesComponent implements OnInit {
         }))
         .sort((a: any, b: any) => b.salary - a.salary)
         .slice(0, 10);
-      console.log(jobs);
       this.initializePieChart(jobs);
     });
     this.balancesService.getHousePrices().subscribe((res: any) => {

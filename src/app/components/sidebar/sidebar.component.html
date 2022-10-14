@@ -1,3 +1,7 @@
-<mat-nav-list>
-  <a class="text-stone-900" mat-list-item *ngFor="let route of publicRoutes" href="{{route.path}}">{{route.show}}</a>
+<mat-nav-list class="overflow-y-auto py-4 px-3 rounded ">
+  <a class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700" mat-list-item *ngFor="let route of publicRoutes" href="{{route.path}}">
+    <span class="ml-3">
+      {{route.show}}
+    </span>
+  </a>
 </mat-nav-list>

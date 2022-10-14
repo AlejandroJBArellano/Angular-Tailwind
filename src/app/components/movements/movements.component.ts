@@ -66,7 +66,6 @@ export class MovementsComponent implements OnInit {
         ...e,
         amount: Math.floor(Math.random() * 169),
       }));
-      console.log(this.users);
     });
   }
 }

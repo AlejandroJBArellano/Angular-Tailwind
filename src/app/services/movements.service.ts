@@ -6,7 +6,7 @@ import { Res } from '../components/movements/movements.component';
   providedIn: 'root',
 })
 export class MovementsService {
-  private API = 'https://random-data-api.com/api/v2/users?size=10&is_xml=true';
+  private API = 'https://random-data-api.com/api/v2/users?size=20&is_xml=true';
   constructor(private http: HttpClient) {}
 
   getUsers() {

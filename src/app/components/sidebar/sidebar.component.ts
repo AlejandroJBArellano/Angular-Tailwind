@@ -2,24 +2,24 @@ import { Component, OnInit } from '@angular/core';
 
 const routes: { path: string; show: string }[] = [
   {
-    path: '/dashboard',
+    path: '/Angular-Tailwind/dashboard',
     show: 'Dashboard',
   },
   {
-    path: '/portfolio',
-    show: 'Valor de Portafolio',
+    path: '/Angular-Tailwind/portfolio',
+    show: 'Portafolio Value',
   },
   {
-    path: '/balances',
-    show: 'Saldos',
+    path: '/Angular-Tailwind/balances',
+    show: 'Balances',
   },
   {
-    path: '/actions',
-    show: 'Acciones',
+    path: '/Angular-Tailwind/actions',
+    show: 'Actions',
   },
   {
-    path: '/movements',
-    show: 'Movimientos',
+    path: '/Angular-Tailwind/movements',
+    show: 'Movements',
   },
 ];
 
