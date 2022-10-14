@@ -1,1 +1,22 @@
-<p>movements works!</p>
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+    <th>Employee Type</th>
+    <th>Subscription Status</th>
+    <th>Subscription Amount</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.first_name | titlecase}} {{user.last_name | titlecase}}</td>
+      <td>{{user.username}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.phone_number}}</td>
+      <td>{{user.employment.key_skill}}</td>
+      <td>{{user.subscription.status}}</td>
+      <td>{{user.amount | currency}}</td>
+    </tr>
+  </tbody>
+</table>

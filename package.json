@@ -23,6 +23,7 @@
     "apexcharts": "^3.35.5",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "xlsx": "^0.18.5",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "@angular/cli": "~14.2.2",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
+    "@types/xlsx": "^0.0.36",
     "autoprefixer": "^10.4.12",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
